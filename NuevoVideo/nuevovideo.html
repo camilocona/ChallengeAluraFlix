@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nuevovideo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="/IMG/AL (1).png">
+    <title>Nuevo Video</title>
+</head>
+<body>
+    <header>
+        <img src="/IMG/Logo.png" alt="Logo">
+
+        <div class="homes">
+            <a href="http://127.0.0.1:5500/index.html"><input class="btn-home-home" type="button" value="HOME"></a> 
+            <a href="http://127.0.0.1:5500/NuevoVideo/nuevovideo.html"><input class="btn-home-new" type="button" value="NUEVO VIDEO"></a> 
+        </div>
+    </header>
+
+    <main>
+
+        <div class="info">
+
+            <h2 class="new">
+                NUEVO VIDEO
+            </h2>
+
+            <p class="complemento">
+                COMPLETA EL FORMULARIOPARA CREAR UNA NUEVA CARTA DE VIDEO
+            </p>
+
+        </div>
+
+        <section class="formulario">
+
+            <hr>
+
+            <p class="titulo">
+                Crear Targeta
+            </p>
+
+            <hr>
+
+            <form>
+
+                <div class="contenedor-formulario">
+                    
+                    
+                        <label class="label" for="titulo">Título</label>
+                        <input class="input" type="text" placeholder="ingrese el título">
+                    
+
+                        <label class="label" for="Categoria">Categoria</label>
+                        <select name="Categoria" id="Categoria" aria-placeholder="ingresa una categoria">
+                            <option value=""></option>
+                            <option value="">Frond End</option>
+                            <option value="">Back End</option>
+                            <option value="">Innovacion Y Gestion</option>
+                        </select>
+                    
+
+                    
+                        <label class="label" for="Imagen">Imagen</label>
+                        <input class="input" type="url" placeholder="el enlace es obligatorio">
+                    
+
+                    
+                        <label class="label" for="Video">Video</label>
+                        <input class="input" type="url" placeholder="ingrese el enlace del video">
+                    
+
+                    
+                        <label class="label" for="Descripcion">Descripcion</label>
+                        <textarea name="Descripcion" id="Descripcion">¿de que se trata este video?</textarea>
+                    
+                    
+
+                <br>
+
+                    
+                        <input class="btn-enviar" type="submit" value="GUARDAR">
+                        <input class="btn-limpiar" type="reset" value="LIMPIAR">
+                    
+                    
+
+
+                </div>
+
+                
+            </form>
+
+        </section>
+
+
+
+
+    </main>
+
+    <footer>
+        <img src="/IMG/Logo.png" alt="Logo">
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgba(0, 0, 0, .85);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    border-bottom: 3px solid rgb(0, 174, 255);
+    box-shadow: 0 0 30px rgb(0, 174, 255);
+}
+
+.btn-home-new{
+    font-weight: 600;
+    margin-left: 20px;
+    padding: 14px;
+    width: 150px;
+    color: rgb(0, 174, 255);
+    border: solid 2px rgb(0, 174, 255);
+    box-shadow: 1px 1px 20px rgb(0, 174, 255);
+    border-radius: 10px;
+    background: rgb(38, 38, 38);
+    transition: 1s;
+}
+
+.btn-home-home{
+    font-weight: 600;
+    margin-left: 20px;
+    padding: 14px;
+    width: 150px;
+    color: white;
+    border: solid 2px white;
+    border-radius: 10px;
+    background: rgb(38, 38, 38);
+    transition: 1s;
+}
+
+.btn-home-home:hover{
+    transition: 1s;
+    font-weight: 600;
+    color: rgb(136, 136, 136);
+    border: 2px solid rgb(136, 136, 136);
+    box-shadow: 1px 1px 20px rgb(81, 81, 81);
+    cursor: pointer;
+}
+
+.info{
+    text-align: center;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    margin-top: 50px;
+}
+
+.new{
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 0 0 5px rgb(0, 174, 255);
+    margin-bottom: 5px;
+}
+
+.complemento{
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+
+.formulario{
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+hr{
+    border: 1px solid rgba(67, 67, 67, 0.825);
+}
+
+.titulo{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Source Code Pro", monospace;
+}
+
+form{
+    margin-top: 60px;
+}
+
+label{
+    color: white;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 150px;
+    border-top: 4px solid rgb(0, 174, 255);
+    box-shadow: 0 0 30px rgb(0, 174, 255);
+}
